@@ -1,4 +1,4 @@
-slogan: "生活，工作和学习中的一些记录，希望对自己以后的职业生活有所帮助！"
+slogan: "开发学习中的一些记录，希望对自己以后的职业生活有所帮助！"
 
 menu:
   - title: Archives
@@ -19,10 +19,18 @@ menu:
     icon: "fa fa-user"
 
 links:
+  - title: Freemind
+    url: https://github.com/wzpan/freemind/
+    intro: "Freemind's Github repository."
+    icon: "fa fa-github"
   - title: "My Github"
-    url: https://github.com/frainmeng 
+    url: http://www.github.com/wzpan
     intro: "My Github account."
     icon: "fa fa-github"
+  - title: "My LinkedIn"
+    url: http://www.linkedin.com/in/hahack
+    intro: "My Linkin account."
+    icon: "fa fa-linkedin"
 
 widgets:
 - search
@@ -34,7 +42,7 @@ widgets:
 rss: 
 fancybox: true
 favicon: favicon.png
-duoshuo_shortname: "frainmeng"
+duoshuo_shortname:
 
 # Analytics
 google_analytics:
