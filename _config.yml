@@ -29,6 +29,7 @@ widgets:
 - category
 - tagcloud
 - recent_posts  
+- profile
 - links
 
 rss: 
@@ -46,3 +47,10 @@ baidu_tongji:
 
 # search
 # swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+
+profile_local: 上海.浦东新区
+profile_company: 汇付数据
+profile_email: frainmeng@gmail.com
+profile_icon: /img/7983461.jpg
+
+

@@ -1,0 +1,9 @@
+<% if (site.posts.length){ %>
+<div class="widget">
+  <h4><%= __('profile') %></h4>
+  <img class="img-thumbnail" height="60" src="<%- theme.profile_icon %>" with ="60" ><br>
+  <strong>地址：</strong><%= theme.profile_local %><br>
+  <strong>公司：</strong><%= theme.profile_company %><br>
+  <strong>E-mail：</strong> <a href="mailto:#"> <%= theme.profile_email %></a>
+</div>
+<% } %>
