@@ -559,4 +559,20 @@ td {
 .cf {
   *zoom: 1;
 }
+.declaration{
+  background-color: rgb(198, 151, 116);
+  margin: 5em 0 1.5em 0;
+  padding: 1.5em 3%;
+  overflow: auto;
+  color: #ccc;  
+  font-size: 14px;
+  text-shadow: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;  
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 1px 0;
+  line-height: 20px;
+}
 

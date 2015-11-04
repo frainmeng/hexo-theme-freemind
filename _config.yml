@@ -24,6 +24,12 @@ links:
     intro: "My Github account."
     icon: "fa fa-github"
 
+friend_links:
+  - title: "orangleliu"
+    url: http://orangleliu.info/
+    intro: "刘志志的Blog"
+    icon: "fa fa-user" 
+
 widgets:
 - search
 - category
@@ -31,6 +37,7 @@ widgets:
 - recent_posts  
 - profile
 - links
+- friends
 
 rss: 
 fancybox: true
