@@ -1,0 +1,8 @@
+<% if (item.declaration){ %>
+<div class="declaration">
+	<strong style="color:red;text-shadow: rgb(212, 106, 64) 5px 3px 3px;">Declaration :  </strong><br>
+	<strong style="color:rgb(212, 106, 64);">Title :  </strong><a href="<%- config.root %><%= item.path %>"><%- item.title %></a><br>
+	<strong style="color:rgb(212, 106, 64);">Url   :  </strong><a href="<%- config.root %><%= item.path %>"><%- config.url %><%- config.root %><%= item.path %></a><br>
+	转载请注明出处<a href="<%- config.url %>"><%- config.title %></a>，本博客采用<a href="http://creativecommons.org/licenses/by-nc-sa/2.5/cn/deed.zh">署名-非商业性使用-相同方式共享协议v2.5</a>
+</div>
+<% } %>

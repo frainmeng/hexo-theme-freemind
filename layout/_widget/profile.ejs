@@ -2,8 +2,21 @@
 <div class="widget">
   <h4><%= __('profile') %></h4>
   <img class="img-thumbnail" height="60" src="<%- theme.profile_icon %>" with ="60" ><br>
+  <ul class="fa-ul">
+	  <li>
+		<i class="fa-li fa fa-map-marker fa-lg"></i>&nbsp&nbsp<%= theme.profile_local %>
+	  </li>
+	  <li>
+		<i class="fa-li fa fa-users fa-lg"></i>&nbsp&nbsp<%= theme.profile_company %>
+	  </li>
+	  <li>
+		<i class="fa-li fa fa-envelope-square fa-lg"></i>&nbsp&nbsp<a href="mailto:#"> <%= theme.profile_email %></a>
+	  </li>
+  </ul>
+  <!--
   <strong>地址：</strong><%= theme.profile_local %><br>
   <strong>公司：</strong><%= theme.profile_company %><br>
   <strong>E-mail：</strong> <a href="mailto:#"> <%= theme.profile_email %></a>
+  -->
 </div>
 <% } %>

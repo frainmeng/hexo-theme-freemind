@@ -1,0 +1,8 @@
+<% if (page.recommend){ %>
+<section id="recommend">
+  <h2 class="title"><%= __('recommend_articles') %></h2>
+  <% if(theme.duoshuo_shortname) { %>
+  	 <ul  class="ds-top-threads" data-range="monthly" data-num-items="5"></ul> 
+  <% } %>
+</section>
+<% } %>
